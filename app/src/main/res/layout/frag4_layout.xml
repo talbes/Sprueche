@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:orientation="vertical" >
+
+
+        <!-- ROW 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/button_sound4_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:src="@drawable/button_default"
+                android:background="@null" />
+
+            <ImageButton
+                android:id="@+id/button_sound4_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:src="@drawable/button_default"
+                android:background="@null" />
+
+            <ImageButton
+                android:id="@+id/button_sound4_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/button_default"
+                android:background="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="@string/button4_1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="@string/button4_2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="@string/button4_3"/>
+        </LinearLayout>
+
+        <!-- ROW 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/button_sound4_4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:src="@drawable/button_default"
+                android:background="@null" />
+
+            <ImageButton
+                android:id="@+id/button_sound4_5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:src="@drawable/button_default"
+                android:background="@null" />
+
+            <ImageButton
+                android:id="@+id/button_sound4_6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/button_default"
+                android:background="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="@string/button4_4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="@string/button4_5"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="@string/button4_6"/>
+        </LinearLayout>
+
+        <!-- ROW 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/button_sound4_7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:src="@drawable/button_default"
+                android:background="@null" />
+
+            <ImageButton
+                android:id="@+id/button_sound4_8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:src="@drawable/button_default"
+                android:background="@null" />
+
+            <ImageButton
+                android:id="@+id/button_sound4_9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/button_default"
+                android:background="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="@string/button4_7"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="@string/button4_8"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="@string/button4_9"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

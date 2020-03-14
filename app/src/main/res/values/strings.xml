@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Sprueche</string>
+    <string name="hello_blank_fragment">Blank</string>
+    <string name="tab_text_1">Bierdurstmann</string>
+    <string name="tab_text_2">Andreas</string>
+    <string name="tab_text_3">Gothic</string>
+    <string name="tab_text_4">Bohlen</string>
+    <string name="tab_text_5">Gemischt</string>
+
+    <!-- Button descriptions -->
+    <string name="button1_1">Wintereinbruch</string>
+    <string name="button1_2">Fußgänger</string>
+    <string name="button1_3">A Bieeer</string>
+    <string name="button1_4">Fieber</string>
+    <string name="button1_5">Bierdurst</string>
+    <string name="button1_6">Biergschmack</string>
+    <string name="button1_7">Therapie</string>
+    <string name="button1_8">Ein oder Zwei</string>
+    <string name="button1_9">Das Quantum Voll</string>
+    <string name="button1_10">Säufergen</string>
+    <string name="button1_11">Vorbild-Vater</string>
+    <string name="button1_12">Leer</string>
+    <string name="button1_13">Leer</string>
+
+    <string name="button2_1">Halt Stop</string>
+    <string name="button2_2">Ahhhhhh</string>
+    <string name="button2_3">Blind Blöd</string>
+    <string name="button2_4">Heulsuse</string>
+    <string name="button2_5">Beruhigt</string>
+    <string name="button2_6">Oberzicke</string>
+    <string name="button2_7">Obst im Haus</string>
+    <string name="button2_8">Schnauze</string>
+    <string name="button2_9">Hier und nicht</string>
+    <string name="button2_10">Die Wohnung bleibt</string>
+    <string name="button2_11">Abschluss</string>
+    <string name="button2_12">Leer</string>
+
+    <string name="button3_1">Graham zeichnet Karten</string>
+    <string name="button3_2">Rück die Karte raus</string>
+    <string name="button3_3">Graham kein Ärger</string>
+    <string name="button3_4">Kyle hat ein Problem</string>
+    <string name="button3_5">Diese Schweine</string>
+    <string name="button3_6">Kyle hat Hütte gebaut</string>
+    <string name="button3_7">Kyle wenn doch</string>
+    <string name="button3_8">Zweite Tür</string>
+    <string name="button3_9">Penner</string>
+    <string name="button3_10">Kyle jeder Arsch</string>
+    <string name="button3_11">Stone du Arsch</string>
+    <string name="button3_12">Stone Amulett</string>
+    <string name="button3_13">Stone du Arsch 2</string>
+    <string name="button3_14">Stone kranke Lache</string>
+    <string name="button3_15">Extra dämlich</string>
+    <string name="button3_16">Extra fick dich selber</string>
+    <string name="button3_17">Diego aufs Maul</string>
+    <string name="button3_18">Fletcher aufs Maul</string>
+
+    <string name="button4_1">Ich kollabier gleich</string>
+    <string name="button4_2">Praktikum</string>
+    <string name="button4_3">Füße</string>
+    <string name="button4_4">Verdienst</string>
+    <string name="button4_5">Deal</string>
+    <string name="button4_6">100000 Mark</string>
+    <string name="button4_7">Ohren steif</string>
+    <string name="button4_8">Tschüss du Betrüger</string>
+    <string name="button4_9">Leer</string>
+
+    <string name="button5_1">Gelernt?</string>
+    <string name="button5_2">Immer Mathematik</string>
+    <string name="button5_3">Was labert der</string>
+    <string name="button5_4">Breit gebaut</string>
+    <string name="button5_5">Der Gerät</string>
+    <string name="button5_6">Wasn anbaun?</string>
+    <string name="button5_7">Zero Zero</string>
+    <string name="button5_8">Mistvieh</string>
+    <string name="button5_9">Halsschlag- ader</string>
+    <string name="button5_10">Betäubungs- kanone</string>
+    <string name="button5_11">Schadet einem das?</string>
+    <string name="button5_12">Sie sind ja verrückt</string>
+    <string name="button5_13">Bio ist Abfall</string>
+    <string name="button5_14">Schnitzel</string>
+    <string name="button5_15">Erdbeerkäse</string>
+    <string name="button5_16">Briefträger</string>
+    <string name="button5_17">Vitamine</string>
+    <string name="button5_18">Kinder Dosenfutter</string>
+</resources>
