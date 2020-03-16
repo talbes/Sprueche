@@ -16,7 +16,8 @@ public class Frag5 extends Fragment implements View.OnClickListener {
 
     private ImageButton mButton1, mButton2, mButton3, mButton4, mButton5, mButton6, mButton7,
             mButton8, mButton9, mButton10, mButton11, mButton12, mButton13, mButton14, mButton15,
-            mButton16, mButton17, mButton18, mButton19, mButton20, mButton21;//
+            mButton16, mButton17, mButton18, mButton19, mButton20, mButton21, mButton22, mButton23,
+            mButton24, mButton25, mButton26, mButton27;//
     MediaPlayer player;
 
     @Nullable
@@ -72,6 +73,20 @@ public class Frag5 extends Fragment implements View.OnClickListener {
         mButton20.setOnClickListener(this);
         mButton21 = view.findViewById(R.id.button_sound5_21);
         mButton21.setOnClickListener(this);
+
+        mButton22 = view.findViewById(R.id.button_sound5_22);
+        mButton22.setOnClickListener(this);
+        mButton23 = view.findViewById(R.id.button_sound5_23);
+        mButton23.setOnClickListener(this);
+        mButton24 = view.findViewById(R.id.button_sound5_24);
+        mButton24.setOnClickListener(this);
+
+        mButton25 = view.findViewById(R.id.button_sound5_25);
+        mButton25.setOnClickListener(this);
+        mButton26 = view.findViewById(R.id.button_sound5_26);
+        mButton26.setOnClickListener(this);
+        mButton27 = view.findViewById(R.id.button_sound5_27);
+        mButton27.setOnClickListener(this);
 
 
         return view;
@@ -139,10 +154,28 @@ public class Frag5 extends Fragment implements View.OnClickListener {
                     player = MediaPlayer.create(getActivity(), R.raw.nadine_dose);
                     break;
                 case R.id.button_sound5_20:
-                    player = MediaPlayer.create(getActivity(), R.raw.nadine_vitamine);
+                    player = MediaPlayer.create(getActivity(), R.raw.werner_neyneyney);
                     break;
                 case R.id.button_sound5_21:
-                    player = MediaPlayer.create(getActivity(), R.raw.nadine_dose);
+                    player = MediaPlayer.create(getActivity(), R.raw.werner_rohrbuch);
+                    break;
+                case R.id.button_sound5_22:
+                    player = MediaPlayer.create(getActivity(), R.raw.kinski_schreienicht);
+                    break;
+                case R.id.button_sound5_23:
+                    player = MediaPlayer.create(getActivity(), R.raw.kinski_zufrech);
+                    break;
+                case R.id.button_sound5_24:
+                    player = MediaPlayer.create(getActivity(), R.raw.kinski_machdeinenscheiss);
+                    break;
+                case R.id.button_sound5_25:
+                    player = MediaPlayer.create(getActivity(), R.raw.kinski_leckmichamarsch);
+                    break;
+                case R.id.button_sound5_26:
+                    player = MediaPlayer.create(getActivity(), R.raw.kinski_platzverweis);
+                    break;
+                case R.id.button_sound5_27:
+                    player = MediaPlayer.create(getActivity(), R.raw.kinski_dudummesau);
                     break;
             }
             player.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
