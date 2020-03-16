@@ -16,7 +16,7 @@ public class Frag5 extends Fragment implements View.OnClickListener {
 
     private ImageButton mButton1, mButton2, mButton3, mButton4, mButton5, mButton6, mButton7,
             mButton8, mButton9, mButton10, mButton11, mButton12, mButton13, mButton14, mButton15,
-            mButton16, mButton17, mButton18;//
+            mButton16, mButton17, mButton18, mButton19, mButton20, mButton21;//
     MediaPlayer player;
 
     @Nullable
@@ -66,6 +66,13 @@ public class Frag5 extends Fragment implements View.OnClickListener {
         mButton18 = view.findViewById(R.id.button_sound5_18);
         mButton18.setOnClickListener(this);
 
+        mButton19 = view.findViewById(R.id.button_sound5_19);
+        mButton19.setOnClickListener(this);
+        mButton20 = view.findViewById(R.id.button_sound5_20);
+        mButton20.setOnClickListener(this);
+        mButton21 = view.findViewById(R.id.button_sound5_21);
+        mButton21.setOnClickListener(this);
+
 
         return view;
     }
@@ -96,36 +103,45 @@ public class Frag5 extends Fragment implements View.OnClickListener {
                     player = MediaPlayer.create(getActivity(), R.raw.lammbock_zerozero);
                     break;
                 case R.id.button_sound5_8:
-                    player = MediaPlayer.create(getActivity(), R.raw.oldschool_mistvieh);
+                    player = MediaPlayer.create(getActivity(), R.raw.lammbock_duschtdunoch);
                     break;
                 case R.id.button_sound5_9:
-                    player = MediaPlayer.create(getActivity(), R.raw.oldschool_halsschlagader);
+                    player = MediaPlayer.create(getActivity(), R.raw.oldschool_mistvieh);
                     break;
                 case R.id.button_sound5_10:
-                    player = MediaPlayer.create(getActivity(), R.raw.oldschool_betaubungspistole);
+                    player = MediaPlayer.create(getActivity(), R.raw.oldschool_halsschlagader);
                     break;
                 case R.id.button_sound5_11:
-                    player = MediaPlayer.create(getActivity(), R.raw.oldschool_schadeteinemdas);
+                    player = MediaPlayer.create(getActivity(), R.raw.oldschool_betaubungspistole);
                     break;
                 case R.id.button_sound5_12:
-                    player = MediaPlayer.create(getActivity(), R.raw.oldschool_verrueckt);
+                    player = MediaPlayer.create(getActivity(), R.raw.oldschool_schadeteinemdas);
                     break;
                 case R.id.button_sound5_13:
-                    player = MediaPlayer.create(getActivity(), R.raw.nadine_bioabfall);
+                    player = MediaPlayer.create(getActivity(), R.raw.oldschool_verrueckt);
                     break;
                 case R.id.button_sound5_14:
-                    player = MediaPlayer.create(getActivity(), R.raw.nadine_schnitzel);
+                    player = MediaPlayer.create(getActivity(), R.raw.nadine_bioabfall);
                     break;
                 case R.id.button_sound5_15:
-                    player = MediaPlayer.create(getActivity(), R.raw.nadine_erdbeerkase);
+                    player = MediaPlayer.create(getActivity(), R.raw.nadine_schnitzel);
                     break;
                 case R.id.button_sound5_16:
-                    player = MediaPlayer.create(getActivity(), R.raw.nadine_brieftraeger);
+                    player = MediaPlayer.create(getActivity(), R.raw.nadine_erdbeerkase);
                     break;
                 case R.id.button_sound5_17:
-                    player = MediaPlayer.create(getActivity(), R.raw.nadine_vitamine);
+                    player = MediaPlayer.create(getActivity(), R.raw.nadine_brieftraeger);
                     break;
                 case R.id.button_sound5_18:
+                    player = MediaPlayer.create(getActivity(), R.raw.nadine_vitamine);
+                    break;
+                case R.id.button_sound5_19:
+                    player = MediaPlayer.create(getActivity(), R.raw.nadine_dose);
+                    break;
+                case R.id.button_sound5_20:
+                    player = MediaPlayer.create(getActivity(), R.raw.nadine_vitamine);
+                    break;
+                case R.id.button_sound5_21:
                     player = MediaPlayer.create(getActivity(), R.raw.nadine_dose);
                     break;
             }
